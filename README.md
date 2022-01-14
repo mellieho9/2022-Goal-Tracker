@@ -13,6 +13,6 @@ This web application is a project I am developing while following the Web Develo
 - Connected that Google Sheet with 'api.js' file
 - Created a bot using Discord Developer portal and added two functions: '!add-goal' and '!my-goals' to add and show user's goals, respectively. 
 - Created a html file and connected the file with the api file by creating a new function 'populateGoal' and fetch API
-<img width="262" alt="Screen Shot 2022-01-14 at 13 52 49" src="https://user-images.githubusercontent.com/85920674/149569920-b7b878c2-b1a2-4627-9a15-795a1036836d.png">
+[](img width="262" alt="Screen Shot 2022-01-14 at 13 52 49" src="https://user-images.githubusercontent.com/85920674/149569920-b7b878c2-b1a2-4627-9a15-795a1036836d.png")
 # License
 [MIT](https://choosealicense.com/licenses/MIT/)
