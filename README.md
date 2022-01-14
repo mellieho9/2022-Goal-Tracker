@@ -1,7 +1,7 @@
 # 2022-Goal-Tracker
 A web application that displays and tracks your goals, which are collected using a Discord API
 # Background
-This web application is a project I am developing while following the Web Development track of Major Hacking League's Local Hack Day: Build. This website connects to your Discord account to display messages you and your friends tagged as "goals" in your server.
+This web application is a project I am developing while following the Web Development track of Major League Hacking's Local Hack Day: Build. This website connects to your Discord account to display messages you and your friends tagged as "goals" in your server.
 # Intended Features
 1. A search bar to filter out goals set to you, a certain date, or for a particular purpose
 2. Connection to Discord to collect goals and display only the goals specific to you or the people inside one server you are in
