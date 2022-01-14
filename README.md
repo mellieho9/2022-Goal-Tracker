@@ -8,5 +8,11 @@ This web application is a project I am developing while following the Web Develo
 3. Real-time update of your goal progress
 # Prototype
 ![Main page](https://user-images.githubusercontent.com/85920674/148872061-15d74686-8cbf-42d2-90cd-c9e668485662.png)
+# Progress
+- Created Google Sheet containing data to be displayed on the website
+- Connected that Google Sheet with 'api.js' file
+- Created a bot using Discord Developer portal and added two functions: '!add-goal' and '!my-goals' to add and show user's goals, respectively. 
+- Created a html file and connected the file with the api file by creating a new function 'populateGoal' and fetch API
+<img width="262" alt="Screen Shot 2022-01-14 at 13 52 49" src="https://user-images.githubusercontent.com/85920674/149569920-b7b878c2-b1a2-4627-9a15-795a1036836d.png">
 # License
 [MIT](https://choosealicense.com/licenses/MIT/)
