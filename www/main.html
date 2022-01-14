@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>2022 Goal Tracker</h1>
+<div id="goals"> Loading... </div>
+
+<script>
+
+function populateGoal(json)
+{
+let goals = ""
+for(let i=0; i<json.length; i++){
+goals = goals + `<div class = "goal"> ${json[i].name}: ${json[i].goal}
+document.getElementById("goals").innerHTML = goals
+}
+fetch('./api/')
+.then(response => response.json())
+.then(data => populateGoal(data))
+</script>
+
+</body>
+
+</html>
