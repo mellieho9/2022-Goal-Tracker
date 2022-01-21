@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+  font-family: Roboto, san-serif;
+  font-style: normal;
+  font-weight: normal;  
+  font-size: 14px;
+  background: rgb(191,191,235);
+  background: linear-gradient(90deg, rgba(191,191,235,1) 0%, rgba(239,213,222,1) 100%);
+  
+}
+
+h1 {
+  font-family: Roboto, san-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+
+
