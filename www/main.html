@@ -1,22 +1,42 @@
 <html>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
 <body>
 <h1>2022 Goal Tracker</h1>
 <div id="goals"> Loading... </div>
+<link href = "./style.css" rel="stylesheet"/>
 
 <script>
 
-function populateGoal(json)
-{
+function populateGoal(json) {
+
+console.log(json)
+
 let goals = ""
-for(let i=0; i<json.length; i++){
-goals = goals + `<div class = "goal"> ${json[i].name}: ${json[i].goal}
-document.getElementById("goals").innerHTML = goals
+for (let i = 0; i < json.length; i++) {
+  goals = goals + `<div class = "goal"> <strong> ${json[i].name}</strong>: ${json[i].goal}</div><br/>
+  document.getElementById("goals").innerHTML = goals
 }
+}
+
 fetch('./api/')
 .then(response => response.json())
-.then(data => populateGoal(data))
+.then(data => populateGoal(data));
 </script>
-
 </body>
-
+<style>
+.goal {
+  padding: 0.5cm;
+  border-radius: 4px;
+  background-color: rgb(255,255,255,0.33);
+  margin-bottom: 50%;
+}
+</style>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<footer>
+<p>Made with 💖 by Meliora</p>
+</footer>
 </html>
